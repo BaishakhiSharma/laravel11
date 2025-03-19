@@ -62,9 +62,7 @@ class RedirectIfAuthenticated
                 return route($routeName);
             }
         }
-
-       
-
+        
         return '/';
     }
 
