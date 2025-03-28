@@ -20,6 +20,10 @@ class ProfileController extends Controller
         return view('frontend.student-dashboard.profile.index');
     }
 
+    function instructorIndex():View{
+        return view('frontend.instructor-dashboard.profile.index');
+    }
+
     function profileUpdate(ProfileUpdateRequest $request): RedirectResponse{
         $user=Auth::user();
        
@@ -35,6 +39,7 @@ class ProfileController extends Controller
        $user->headline=$request->heading;
        $user->gender=$request->gender;
        $user->save();
+       notyf()->success('Updated Successfully.');
 
        return redirect()->back();
     }
@@ -43,6 +48,7 @@ class ProfileController extends Controller
         $user=Auth::user();
         $user->password=bcrypt($request->password);
         $user->save();
+        notyf()->success('Updated Successfully.');
 
         return redirect()->back();
     }
@@ -54,6 +60,7 @@ class ProfileController extends Controller
         $user->linkedin=$request->linkedin;
         $user->website=$request->website;
         $user->save();
+        notyf()->success('Updated Successfully.');
 
         return redirect()->back();
     }
