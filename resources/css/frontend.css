@@ -1,0 +1,47 @@
+.wsus__sign_in{
+ margin-top:95px;
+}
+
+//mine
+/* Adjust padding/margin for form inputs */
+.wsus__login_form_input {
+    padding-bottom: 0px !important; /* Adjust spacing between input fields */
+}
+
+/* Ensure the Sign Up button is visible */
+.common_btn {
+    display: block !important;
+    padding: 12px 20px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important; /* Add bottom margin to prevent clipping */
+}
+
+/* Fix container height issues if the button is being pushed down */
+.wsus__sign_form_area {
+    padding-bottom: 20px !important; /* Increase padding at the bottom */
+}
+
+/* Ensure the section has enough space */
+.wsus__sign_in {
+    padding-bottom: 40px !important;
+}
+
+
+/* Ensure the Sign Up button is visible */
+.common_btn {
+    display: block !important;
+    padding: 12px 20px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important; /* Add bottom margin to prevent clipping */
+}
+
+/* Fix container height issues if the button is being pushed down */
+.wsus__sign_form_area {
+    padding-bottom: 20px !important; /* Increase padding at the bottom */
+}
+
+/* Ensure the section has enough space */
+.wsus__sign_in {
+    padding-bottom: 40px !important;
+}
+

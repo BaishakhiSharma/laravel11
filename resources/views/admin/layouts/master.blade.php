@@ -17,6 +17,7 @@
       	font-feature-settings: "cv03", "cv04", "cv11";
       }
     </style>
+    @vite(['resources/css/admin.css','resources/js/admin/admin.js'])
   </head>
   <body >
     <script src="{{ asset('admin/assets/dist/js/demo-theme.min.js?1692870487') }}"></script>
